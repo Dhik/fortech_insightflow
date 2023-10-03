@@ -50,90 +50,8 @@ import HelloWorld from "./components/HelloWorld.vue";
                     <i class="material-icons opacity-6 me-2 text-md"
                       >dashboard</i
                     >
-                    Pages
-                    <img
-                      src="./assets/img/down-arrow-dark.svg"
-                      alt="down-arrow"
-                      class="arrow ms-auto ms-md-2"
-                    />
+                    Profile Page
                   </a>
-                  <div
-                    class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
-                    aria-labelledby="dropdownMenuPages"
-                  >
-                    <div class="d-none d-lg-block">
-                      <h6
-                        class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1"
-                      >
-                        Landing Pages
-                      </h6>
-                      <a
-                        href="./pages/about-us.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>About Us</span>
-                      </a>
-                      <a
-                        href="./pages/contact-us.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>Contact Us</span>
-                      </a>
-                      <a
-                        href="./pages/author.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>Author</span>
-                      </a>
-                      <h6
-                        class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3"
-                      >
-                        Account
-                      </h6>
-                      <a
-                        href="./pages/sign-in.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>Sign In</span>
-                      </a>
-                    </div>
-                    <div class="d-lg-none">
-                      <h6
-                        class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1"
-                      >
-                        Landing Pages
-                      </h6>
-                      <a
-                        href="./pages/about-us.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>About Us</span>
-                      </a>
-                      <a
-                        href="./pages/contact-us.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>Contact Us</span>
-                      </a>
-                      <a
-                        href="./pages/author.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>Author</span>
-                      </a>
-                      <h6
-                        class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3"
-                      >
-                        Account
-                      </h6>
-                      <a
-                        href="./pages/sign-in.html"
-                        class="dropdown-item border-radius-md"
-                      >
-                        <span>Sign In</span>
-                      </a>
-                    </div>
-                  </div>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a
@@ -145,7 +63,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                     <i class="material-icons opacity-6 me-2 text-md"
                       >view_day</i
                     >
-                    Sections
+                    Platforms
                     <img
                       src="./assets/img/down-arrow-dark.svg"
                       alt="down-arrow"
@@ -171,31 +89,14 @@ import HelloWorld from "./components/HelloWorld.vue";
                               <h6
                                 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                               >
-                                Page Sections
+                                Power BI
                               </h6>
-                              <span class="text-sm">See all sections</span>
+                              <span class="text-sm"
+                                >Microsoft Data Insights</span
+                              >
                             </div>
-                            <img
-                              src="./assets/img/down-arrow.svg"
-                              alt="down-arrow"
-                              class="arrow"
-                            />
                           </div>
                         </a>
-                        <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/page-sections/hero-sections.html"
-                          >
-                            Page Headers
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/page-sections/features.html"
-                          >
-                            Features
-                          </a>
-                        </div>
                       </li>
                       <li
                         class="nav-item dropdown dropdown-hover dropdown-subitem"
@@ -211,199 +112,14 @@ import HelloWorld from "./components/HelloWorld.vue";
                               <h6
                                 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                               >
-                                Navigation
+                                Tableau
                               </h6>
-                              <span class="text-sm">See all navigations</span>
-                            </div>
-                            <img
-                              src="./assets/img/down-arrow.svg"
-                              alt="down-arrow"
-                              class="arrow"
-                            />
-                          </div>
-                        </a>
-                        <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/navigation/navbars.html"
-                          >
-                            Navbars
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/navigation/nav-tabs.html"
-                          >
-                            Nav Tabs
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/navigation/pagination.html"
-                          >
-                            Pagination
-                          </a>
-                        </div>
-                      </li>
-                      <li
-                        class="nav-item dropdown dropdown-hover dropdown-subitem"
-                      >
-                        <a
-                          class="dropdown-item py-2 ps-3 border-radius-md"
-                          href="./presentation.html"
-                        >
-                          <div
-                            class="w-100 d-flex align-items-center justify-content-between"
-                          >
-                            <div>
-                              <h6
-                                class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                              <span class="text-sm"
+                                >Interactive Data Visualization</span
                               >
-                                Input Areas
-                              </h6>
-                              <span class="text-sm">See all input areas</span>
                             </div>
-                            <img
-                              src="./assets/img/down-arrow.svg"
-                              alt="down-arrow"
-                              class="arrow"
-                            />
                           </div>
                         </a>
-                        <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/input-areas/inputs.html"
-                          >
-                            Inputs
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/input-areas/forms.html"
-                          >
-                            Forms
-                          </a>
-                        </div>
-                      </li>
-                      <li
-                        class="nav-item dropdown dropdown-hover dropdown-subitem"
-                      >
-                        <a
-                          class="dropdown-item py-2 ps-3 border-radius-md"
-                          href="./presentation.html"
-                        >
-                          <div
-                            class="w-100 d-flex align-items-center justify-content-between"
-                          >
-                            <div>
-                              <h6
-                                class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
-                              >
-                                Attention Catchers
-                              </h6>
-                              <span class="text-sm">See all examples</span>
-                            </div>
-                            <img
-                              src="./assets/img/down-arrow.svg"
-                              alt="down-arrow"
-                              class="arrow"
-                            />
-                          </div>
-                        </a>
-                        <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/attention-catchers/alerts.html"
-                          >
-                            Alerts
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/attention-catchers/modals.html"
-                          >
-                            Modals
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/attention-catchers/tooltips-popovers.html"
-                          >
-                            Tooltips & Popovers
-                          </a>
-                        </div>
-                      </li>
-                      <li
-                        class="nav-item dropdown dropdown-hover dropdown-subitem"
-                      >
-                        <a
-                          class="dropdown-item py-2 ps-3 border-radius-md"
-                          href="./presentation.html"
-                        >
-                          <div
-                            class="w-100 d-flex align-items-center justify-content-between"
-                          >
-                            <div>
-                              <h6
-                                class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
-                              >
-                                Elements
-                              </h6>
-                              <span class="text-sm">See all elements</span>
-                            </div>
-                            <img
-                              src="./assets/img/down-arrow.svg"
-                              alt="down-arrow"
-                              class="arrow"
-                            />
-                          </div>
-                        </a>
-                        <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/avatars.html"
-                          >
-                            Avatars
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/badges.html"
-                          >
-                            Badges
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/breadcrumbs.html"
-                          >
-                            Breadcrumbs
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/buttons.html"
-                          >
-                            Buttons
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/dropdowns.html"
-                          >
-                            Dropdowns
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/progress-bars.html"
-                          >
-                            Progress Bars
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/toggles.html"
-                          >
-                            Toggles
-                          </a>
-                          <a
-                            class="dropdown-item ps-3 border-radius-md mb-1"
-                            href="./sections/elements/typography.html"
-                          >
-                            Typography
-                          </a>
-                        </div>
                       </li>
                     </div>
                     <div class="row d-lg-none">
@@ -616,7 +332,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                     aria-expanded="false"
                   >
                     <i class="material-icons opacity-6 me-2 text-md">article</i>
-                    Docs
+                    Services
                     <img
                       src="./assets/img/down-arrow-dark.svg"
                       alt="down-arrow"
@@ -637,11 +353,11 @@ import HelloWorld from "./components/HelloWorld.vue";
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Getting Started
+                              Internal Data Research
                             </h6>
                             <span class="text-sm"
-                              >All about overview, quick start, license and
-                              contents</span
+                              >Proses Integrasi, Analisis, dan Pengelolaan Data
+                              Internal</span
                             >
                           </a>
                         </li>
@@ -653,10 +369,11 @@ import HelloWorld from "./components/HelloWorld.vue";
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Foundation
+                              Enterprise Data Management
                             </h6>
                             <span class="text-sm"
-                              >See our colors, icons and typography</span
+                              >Pengelolaan Data Bisnis: Kumpul, Proses, Simpan,
+                              Gunakan</span
                             >
                           </a>
                         </li>
@@ -668,11 +385,11 @@ import HelloWorld from "./components/HelloWorld.vue";
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Components
+                              Big Data Analytics
                             </h6>
                             <span class="text-sm"
-                              >Explore our collection of fully designed
-                              components</span
+                              >Analisis Data Skala Besar: Wawasan Keputusan
+                              Bisnis</span
                             >
                           </a>
                         </li>
@@ -684,26 +401,11 @@ import HelloWorld from "./components/HelloWorld.vue";
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
-                              Plugins
+                              Monitoring and Intelligence Services
                             </h6>
                             <span class="text-sm"
-                              >Check how you can integrate our plugins</span
-                            >
-                          </a>
-                        </li>
-                        <li class="nav-item list-group-item border-0 p-0">
-                          <a
-                            class="dropdown-item py-2 ps-3 border-radius-md"
-                            href=" https://www.creative-tim.com/learning-lab/bootstrap/utilities/material-kit "
-                          >
-                            <h6
-                              class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
-                            >
-                              Utility Classes
-                            </h6>
-                            <span class="text-sm"
-                              >For those who want flexibility, use our utility
-                              classes</span
+                              >Monitor Data Online, AI Identifikasi Ancaman
+                              Bisnis</span
                             >
                           </a>
                         </li>
@@ -782,23 +484,6 @@ import HelloWorld from "./components/HelloWorld.vue";
                       </div>
                     </div>
                   </ul>
-                </li>
-                <li class="nav-item ms-lg-auto">
-                  <a
-                    class="nav-link nav-link-icon me-2"
-                    href="https://github.com/creativetimofficial/material-kit"
-                    target="_blank"
-                  >
-                    <i class="fa fa-github me-1"></i>
-                    <p
-                      class="d-inline text-sm z-index-1 font-weight-bold"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="bottom"
-                      title="Star us on Github"
-                    >
-                      Github
-                    </p>
-                  </a>
                 </li>
               </ul>
             </div>
@@ -2324,59 +2009,10 @@ import HelloWorld from "./components/HelloWorld.vue";
                 alt="main_logo"
               />
             </a>
-            <h6 class="font-weight-bolder mb-4">Material Kit 2</h6>
-          </div>
-          <div>
-            <ul class="d-flex flex-row ms-n3 nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link pe-1"
-                  href="https://www.facebook.com/CreativeTim"
-                  target="_blank"
-                >
-                  <i class="fab fa-facebook text-lg opacity-8"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link pe-1"
-                  href="https://twitter.com/creativetim"
-                  target="_blank"
-                >
-                  <i class="fab fa-twitter text-lg opacity-8"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link pe-1"
-                  href="https://dribbble.com/creativetim"
-                  target="_blank"
-                >
-                  <i class="fab fa-dribbble text-lg opacity-8"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link pe-1"
-                  href="https://github.com/creativetimofficial"
-                  target="_blank"
-                >
-                  <i class="fab fa-github text-lg opacity-8"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link pe-1"
-                  href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
-                  target="_blank"
-                >
-                  <i class="fab fa-youtube text-lg opacity-8"></i>
-                </a>
-              </li>
-            </ul>
+            <h6 class="font-weight-bolder mb-4">PT. Fortech Indotama</h6>
           </div>
         </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4">
+        <div class="col-md-4 col-sm-6 col-6 mb-4">
           <div>
             <h6 class="text-sm">Company</h6>
             <ul class="flex-column ms-n3 nav">
@@ -2419,7 +2055,7 @@ import HelloWorld from "./components/HelloWorld.vue";
             </ul>
           </div>
         </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4">
+        <div class="col-md-4 col-sm-6 col-6 mb-4">
           <div>
             <h6 class="text-sm">Resources</h6>
             <ul class="flex-column ms-n3 nav">
@@ -2453,84 +2089,7 @@ import HelloWorld from "./components/HelloWorld.vue";
             </ul>
           </div>
         </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4">
-          <div>
-            <h6 class="text-sm">Help & Support</h6>
-            <ul class="flex-column ms-n3 nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/contact-us"
-                  target="_blank"
-                >
-                  Contact Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/knowledge-center"
-                  target="_blank"
-                >
-                  Knowledge Center
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://services.creative-tim.com/?ref=ct-mk2-footer"
-                  target="_blank"
-                >
-                  Custom Development
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/sponsorships"
-                  target="_blank"
-                >
-                  Sponsorships
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
-          <div>
-            <h6 class="text-sm">Legal</h6>
-            <ul class="flex-column ms-n3 nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/knowledge-center/terms-of-service"
-                  target="_blank"
-                >
-                  Terms & Conditions
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/knowledge-center/privacy-policy"
-                  target="_blank"
-                >
-                  Privacy Policy
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/license"
-                  target="_blank"
-                >
-                  Licenses (EULA)
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12">
+        <!-- <div class="col-12">
           <div class="text-center">
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright © Material Kit by
@@ -2539,7 +2098,7 @@ import HelloWorld from "./components/HelloWorld.vue";
               >.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
