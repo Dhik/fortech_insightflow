@@ -18,7 +18,7 @@ import HelloWorld from "./components/HelloWorld.vue";
               data-placement="bottom"
               target="_blank"
             >
-              Material Kit 2
+              Fortech Indotama
             </a>
             <button
               class="navbar-toggler shadow-none ms-2"
@@ -799,13 +799,6 @@ import HelloWorld from "./components/HelloWorld.vue";
                       Github
                     </p>
                   </a>
-                </li>
-                <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a
-                    href="https://www.creative-tim.com/product/material-kit-pro"
-                    class="btn btn-sm bg-gradient-primary mb-0 me-1 mt-2 mt-md-0"
-                    >Upgrade to Pro</a
-                  >
                 </li>
               </ul>
             </div>
