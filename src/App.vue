@@ -348,7 +348,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                         <li class="nav-item list-group-item border-0 p-0">
                           <a
                             class="dropdown-item py-2 ps-3 border-radius-md"
-                            href=" https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit "
+                            href="#kajian"
                           >
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -364,7 +364,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                         <li class="nav-item list-group-item border-0 p-0">
                           <a
                             class="dropdown-item py-2 ps-3 border-radius-md"
-                            href=" https://www.creative-tim.com/learning-lab/bootstrap/colors/material-kit "
+                            href="#edm"
                           >
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -380,7 +380,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                         <li class="nav-item list-group-item border-0 p-0">
                           <a
                             class="dropdown-item py-2 ps-3 border-radius-md"
-                            href=" https://www.creative-tim.com/learning-lab/bootstrap/alerts/material-kit "
+                            href="#bda"
                           >
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -396,7 +396,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                         <li class="nav-item list-group-item border-0 p-0">
                           <a
                             class="dropdown-item py-2 ps-3 border-radius-md"
-                            href=" https://www.creative-tim.com/learning-lab/bootstrap/datepicker/material-kit "
+                            href="#monitor"
                           >
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -1479,7 +1479,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           </div>
         </div> -->
       </div>
-      <div class="container mt-sm-5">
+      <div class="container mt-sm-5" id="kajian">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
           style="
@@ -1506,7 +1506,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           </div>
         </div>
       </div>
-      <div class="container mt-sm-5">
+      <div class="container mt-sm-5" id="edm">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
           style="
@@ -1534,7 +1534,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           </div>
         </div>
       </div>
-      <div class="container mt-sm-5">
+      <div class="container mt-sm-5" id="bda">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
           style="
@@ -1561,7 +1561,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           </div>
         </div>
       </div>
-      <div class="container mt-sm-5">
+      <div class="container mt-sm-5" id="monitor">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
           style="
