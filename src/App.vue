@@ -1565,7 +1565,7 @@ import HelloWorld from "./components/HelloWorld.vue";
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
           style="
-            background-image: url('https://dhik.github.io/fortech_insightflow/src/assets/img/monitoring.jpeg');
+            background-image: url('https://dhik.github.io/fortech_insightflow/src/assets/img/monitor.jpeg');
           "
           loading="lazy"
         >
