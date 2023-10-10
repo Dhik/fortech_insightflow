@@ -40,7 +40,7 @@ import HelloWorld from "./components/HelloWorld.vue";
               id="navigation"
             >
               <ul class="navbar-nav navbar-nav-hover ms-auto">
-                <li class="nav-item dropdown dropdown-hover mx-2">
+                <!-- <li class="nav-item dropdown dropdown-hover mx-2">
                   <a
                     class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                     id="dropdownMenuPages"
@@ -52,7 +52,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                     >
                     Profile Page
                   </a>
-                </li>
+                </li> -->
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a
                     class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -534,10 +534,10 @@ import HelloWorld from "./components/HelloWorld.vue";
               style="top: 100px"
             >
               <h3>Our Dashboards</h3>
-              <h6 class="text-secondary font-weight-normal pe-3">
+              <!-- <h6 class="text-secondary font-weight-normal pe-3">
                 A selection of 45 page sections that fit perfectly in any
                 combination
-              </h6>
+              </h6> -->
             </div>
           </div>
           <div class="col-lg-9">
@@ -1479,6 +1479,110 @@ import HelloWorld from "./components/HelloWorld.vue";
           </div>
         </div> -->
       </div>
+      <div class="container mt-sm-5">
+        <div
+          class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
+          style="
+            background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');
+          "
+          loading="lazy"
+        >
+          <span class="mask bg-gradient-dark"></span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 ms-lg-5">
+                <h4 class="text-white">Internal Data Research</h4>
+                <h1 class="text-white">Kajian Data</h1>
+                <p class="lead text-white opacity-8">
+                  Proses pengumpulan, analisis, dan integrasi data internal
+                  organisasi untuk membantu organisasi dalam memahami data.
+                </p>
+                <!-- <a href="#" class="text-white icon-move-right">
+                  Read docs
+                  <i class="fas fa-arrow-right text-sm ms-1"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-sm-5">
+        <div
+          class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
+          style="background-image: url('/src/assets/img/edm.jpg')"
+          loading="lazy"
+        >
+          <span class="mask bg-gradient-dark"></span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 ms-lg-5">
+                <h4 class="text-white">Enterprise Data Management</h4>
+                <h1 class="text-white">Enterprise Data Management</h1>
+                <p class="lead text-white opacity-8">
+                  Pengelolaan data dalam skala di perusahaan meliputi
+                  pengumpulan, pemrosesan, penyimpanan, dan penggunaan data
+                  untuk kepentingan bisnis.
+                </p>
+                <!-- <a href="#" class="text-white icon-move-right">
+                  Read docs
+                  <i class="fas fa-arrow-right text-sm ms-1"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-sm-5">
+        <div
+          class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
+          style="background-image: url('/src/assets/img/bda.jpg')"
+          loading="lazy"
+        >
+          <span class="mask bg-gradient-dark"></span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 ms-lg-5">
+                <h4 class="text-white">Big Data Analytics Platform</h4>
+                <h1 class="text-white">Big Data Analytics</h1>
+                <p class="lead text-white opacity-8">
+                  Proses Analisis data dalam skala besar untuk memberikan
+                  wawasan dan solusi dalam pengambilan keputusan bisnis.
+                </p>
+                <!-- <a href="#" class="text-white icon-move-right">
+                  Read docs
+                  <i class="fas fa-arrow-right text-sm ms-1"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-sm-5">
+        <div
+          class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
+          style="background-image: url('/src/assets/img/monitor.jpeg')"
+          loading="lazy"
+        >
+          <span class="mask bg-gradient-dark"></span>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 ms-lg-5">
+                <h4 class="text-white">Monitoring and Intelligence Services</h4>
+                <h1 class="text-white">Monitoring and Intelligence Services</h1>
+                <p class="lead text-white opacity-8">
+                  Monitoring dan pengumpulan Data Online dan AI untuk
+                  mengidentifikasi ancaman atau peluang bisnis dan memberikan
+                  informasi akurat untuk pengambilan keputusan.
+                </p>
+                <!-- <a href="#" class="text-white icon-move-right">
+                  Read docs
+                  <i class="fas fa-arrow-right text-sm ms-1"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- <section class="py-5">
       <div class="container">
@@ -2014,7 +2118,27 @@ import HelloWorld from "./components/HelloWorld.vue";
         </div>
         <div class="col-md-4 col-sm-6 col-6 mb-4">
           <div>
-            <h6 class="text-sm">Company</h6>
+            <h6 class="text-sm">About Us</h6>
+            <ul class="flex-column ms-n3 nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://iradesign.io/"
+                  target="_blank"
+                >
+                  PT. Fortech Indotama menawarkan 2 produk unggulan di bidang TI
+                  yaitu Business Data Analytics dan IT Security Services dengan
+                  didukung oleh tim ahli yang profesional dan berpengalaman
+                  dibidangnya. Kami berkomitmen untuk terus berinovasi dan
+                  memberikan solusi teknologi informasi terbaik bagi klien kami.
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-6 mb-4">
+          <div>
+            <h6 class="text-sm">Contact Us</h6>
             <ul class="flex-column ms-n3 nav">
               <li class="nav-item">
                 <a
@@ -2022,7 +2146,9 @@ import HelloWorld from "./components/HelloWorld.vue";
                   href="https://www.creative-tim.com/presentation"
                   target="_blank"
                 >
-                  About Us
+                  The H Tower Lt. 12<br />
+                  Jl. HR Rasuna Said Kav 20 Kuningan, Jakarta 12940<br />
+                  Indonesia<br />
                 </a>
               </li>
               <li class="nav-item">
@@ -2031,7 +2157,7 @@ import HelloWorld from "./components/HelloWorld.vue";
                   href="https://www.creative-tim.com/templates/free"
                   target="_blank"
                 >
-                  Freebies
+                  <strong>Phone:</strong> (021) 295 33 240<br />
                 </a>
               </li>
               <li class="nav-item">
@@ -2040,55 +2166,13 @@ import HelloWorld from "./components/HelloWorld.vue";
                   href="https://www.creative-tim.com/templates/premium"
                   target="_blank"
                 >
-                  Premium Tools
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/blog"
-                  target="_blank"
-                >
-                  Blog
+                  <strong>Email:</strong> admin@fortech.co.id<br />
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-6 mb-4">
-          <div>
-            <h6 class="text-sm">Resources</h6>
-            <ul class="flex-column ms-n3 nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://iradesign.io/"
-                  target="_blank"
-                >
-                  Illustrations
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/bits"
-                  target="_blank"
-                >
-                  Bits & Snippets
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.creative-tim.com/affiliates/new"
-                  target="_blank"
-                >
-                  Affiliate Program
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+
         <!-- <div class="col-12">
           <div class="text-center">
             <p class="text-dark my-4 text-sm font-weight-normal">
