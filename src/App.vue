@@ -1509,7 +1509,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       <div class="container mt-sm-5">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-          style="background-image: url('/src/assets/img/edm.jpg')"
+          style="
+            background-image: url('https://dhik.github.io/fortech_insightflow/src/assets/img/edm.jpg');
+          "
           loading="lazy"
         >
           <span class="mask bg-gradient-dark"></span>
@@ -1535,7 +1537,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       <div class="container mt-sm-5">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-          style="background-image: url('/src/assets/img/bda.jpg')"
+          style="
+            background-image: url('https://dhik.github.io/fortech_insightflow/src/assets/img/bda.jpg');
+          "
           loading="lazy"
         >
           <span class="mask bg-gradient-dark"></span>
@@ -1560,7 +1564,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       <div class="container mt-sm-5">
         <div
           class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-          style="background-image: url('/src/assets/img/monitor.jpeg')"
+          style="
+            background-image: url('https://dhik.github.io/fortech_insightflow/src/assets/img/monitoring.jpeg');
+          "
           loading="lazy"
         >
           <span class="mask bg-gradient-dark"></span>
