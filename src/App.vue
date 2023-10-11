@@ -544,7 +544,7 @@ import HelloWorld from "./components/HelloWorld.vue";
             <div class="row">
               <div class="col-md-4 mt-md-0">
                 <a
-                  href="https://public.tableau.com/app/profile/mohammad.dhikri/viz/AnalisisProduksiAluminiumdiDunia/Dashboard1"
+                  href="https://dhik.github.io/company_profile/aluminium/index.html"
                 >
                   <div
                     class="card shadow-lg move-on-hover min-height-160 min-height-160"
